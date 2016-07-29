@@ -1,6 +1,6 @@
 {
   "name": "slimerjs-firefox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This repo includes slimerjs as well as the entire Firefox runtime.",
   "scripts": {
     "postinstall": "./downloadFirefox.sh"
@@ -8,7 +8,7 @@
   "bin": {
     "slimerjs-firefox": "./bin/slimerjs-firefox"
   },
-  "main": "./slimerjs-firefox",
+  "main": "./lib/slimerjs-firefox.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinGrandon/slimerjs.git"
