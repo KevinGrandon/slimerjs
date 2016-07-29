@@ -1,10 +1,14 @@
 {
   "name": "slimerjs-install",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": " A scriptable browser like PhantomJS, based on Firefox. This repo includes slimerjs as well as the entire Firefox runtime.",
   "scripts": {
     "postinstall": "./downloadFirefox.sh"
   },
+  "bin": {
+    "slimerjs-install": "./bin/slimerjs-install"
+  },
+  "main": "./slimerjs-install",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinGrandon/slimerjs.git"
@@ -15,6 +19,5 @@
     "url": "https://github.com/KevinGrandon/slimerjs/issues"
   },
   "homepage": "https://github.com/KevinGrandon/slimerjs#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }

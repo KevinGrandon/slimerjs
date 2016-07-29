@@ -1,0 +1,3 @@
+module.exports.location = "../firefox/Firefox.app/Contents/MacOS/firefox"
+module.exports.platform = "darwin"
+module.exports.arch = "x64"
