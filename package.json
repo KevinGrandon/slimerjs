@@ -1,6 +1,6 @@
 {
   "name": "slimerjs-firefox",
-  "version": "1.0.5-beta3",
+  "version": "1.0.5-no-download",
   "description": "This repo includes slimerjs as well as downloads a local copy of Firefox.",
   "bin": {
     "slimerjs-firefox": "./bin/slimerjs-firefox"
