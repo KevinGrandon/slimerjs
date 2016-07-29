@@ -1,6 +1,6 @@
 # slimerjs-firefox
 
-slimerjs-firefox is a package which will install SlimerJS as well as a local Firefox into. It's mainly meant to be used with [GhostJS](https://github.com/KevinGrandon/ghostjs) as an alternative test backend to phantomjs.
+slimerjs-firefox is a package which will install SlimerJS as well as a download a copy of Firefox. It's mainly meant to be used with testing and CI scripts like [GhostJS](https://github.com/KevinGrandon/ghostjs) as an alternative test backend to phantomjs.
 
 # SlimerJS
 http://slimerjs.org/

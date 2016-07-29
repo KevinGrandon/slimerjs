@@ -1,7 +1,7 @@
 {
   "name": "slimerjs-firefox",
-  "version": "1.0.4",
-  "description": "This repo includes slimerjs as well as the entire Firefox runtime.",
+  "version": "1.0.5",
+  "description": "This repo includes slimerjs as well as downloads a local copy of Firefox.",
   "scripts": {
     "postinstall": "./downloadFirefox.sh"
   },
