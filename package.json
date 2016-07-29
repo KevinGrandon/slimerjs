@@ -1,10 +1,7 @@
 {
-  "name": "slimerjs-firefox",
-  "version": "1.0.5",
+  "name": "slimerjs-firefox-no-download",
+  "version": "1.0.0",
   "description": "This repo includes slimerjs as well as downloads a local copy of Firefox.",
-  "scripts": {
-    "postinstall": "./downloadFirefox.sh"
-  },
   "bin": {
     "slimerjs-firefox": "./bin/slimerjs-firefox"
   },
