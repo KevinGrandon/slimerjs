@@ -27,9 +27,9 @@ then
     if [ "$SLIMERJSLAUNCHER" == "" ]
     then
         # Try the Mac OSX global default application path
-        if [ -f "`pwd`/firefox/Firefox.app/Contents/MacOS/firefox" ]
+        if [ -f "/Applications/Firefox.app/Contents/MacOS/firefox" ]
         then
-            SLIMERJSLAUNCHER="`pwd`/firefox/Firefox.app/Contents/MacOS/firefox"
+            SLIMERJSLAUNCHER="/Applications/Firefox.app/Contents/MacOS/firefox"
         else
             echo "SLIMERJSLAUNCHER environment variable is missing. Set it with the path to Firefox"
             exit 1
