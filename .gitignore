@@ -9,3 +9,4 @@ node_modules
 firefox/
 Firefox*
 .DS_Store
+lib/location.js
