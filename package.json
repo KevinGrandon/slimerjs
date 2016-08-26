@@ -1,20 +1,20 @@
 {
-  "name": "slimerjs",
-  "version": "1.0.0-alpha.1",
-  "description": "A scriptable browser like PhantomJS, based on Firefox",
+  "name": "slimerjs-core",
+  "version": "0.12.0",
+  "description": "SlimerJS with NPM support.",
   "bin": {
     "slimerjs": "./src/slimerjs-node"
   },
-  "main": "./src/phantom-protocol.js",
+  "main": "./lib/slimerjs-core.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laurentj/slimerjs.git"
+    "url": "git+https://github.com/KevinGrandon/slimerjs.git"
   },
   "author": "",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/laurentj/slimerjs/issues"
+    "url": "https://github.com/KevinGrandon/slimerjs/issues"
   },
-  "homepage": "https://github.com/laurentj/slimerjs#readme",
+  "homepage": "https://github.com/KevinGrandon/slimerjs#readme",
   "dependencies": {}
 }

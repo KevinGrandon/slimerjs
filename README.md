@@ -1,3 +1,9 @@
+# SlimerJS + NPM Fork
+
+This is a temporary fork of SlimerJS until proper NPM support is added upstream[1]. At that time this package will likely be discontinued. It's only being developed in order to allow developers to be unblocked by having a package on NPM.
+
+[1] https://github.com/laurentj/slimerjs/pull/515
+
 # SlimerJS
 http://slimerjs.org/
 
