@@ -1,6 +1,6 @@
 {
   "name": "slimerjs-core",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "SlimerJS with NPM support.",
   "bin": {
     "slimerjs": "./src/slimerjs-node"
